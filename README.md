@@ -18,7 +18,7 @@ A simple GUI for the PDF merging abilities of the package [PyPDF2](https://githu
 pip install PyPDF2
 ```
 
-3. Download the python file from this project
+3. Download the [python file](https://github.com/Falyrion/PDF-Merge/blob/main/pdf_merge/merge_pdf.py) from this project
 
 # How to use
 
