@@ -1,16 +1,15 @@
 import tkinter
 from tkinter import filedialog
-from PyPDF2 import PdfFileMerger
+from PyPDF2 import PdfMerger
 
 
 def merge_pdfs(pdfs, out_file):
     """ Merge all pdf files from a given list into one output file
-
     :param pdfs: List; List of Filepaths
     :param out_file: String; The name of the output file
     :return: None
     """
-    merger = PdfFileMerger()
+    merger = PdfMerger()
 
     for pdf_file in pdfs:
         try:
